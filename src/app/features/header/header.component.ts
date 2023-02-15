@@ -38,4 +38,8 @@ export class HeaderComponent implements OnInit {
   openDonateScreen = () => this.modalService.open(DonateComponent, {
     windowClass: "donate-modal"
   })
+
+  isCollapseble(): boolean {
+    return 992 > window.innerWidth
+  }
 }

@@ -10,7 +10,8 @@
     "dev:ssr": "ng run cpof:serve-ssr",
     "serve:ssr": "node dist/cpof/server/main.js",
     "build:ssr": "ng build && ng run cpof:server",
-    "prerender": "ng run cpof:prerender"
+    "prerender": "ng run cpof:prerender",
+    "vercel-build": "npm run build:ssr"
   },
   "private": true,
   "dependencies": {

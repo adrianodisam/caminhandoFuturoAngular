@@ -11,10 +11,11 @@
   width: 70%;
 }
 
-.nav-link {
+.nav {
   color: white !important;
   font-size: x-large !important;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar-toggler {
@@ -39,7 +40,7 @@
   .header-image {
     width: 40%;
   }
-  .nav-link {
+  .nav {
     font-size: medium !important;
   }
 }
