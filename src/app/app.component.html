@@ -1,0 +1,15 @@
+<div class="page">
+  <app-header></app-header>
+
+  <div class="container-fluid">
+    <router-outlet
+      (activate)="currentComponent = $event"
+    ></router-outlet>
+  </div>
+
+  <app-footer></app-footer>
+</div>
+<app-donate-button
+  *ngIf="!isDonatePage()"
+  (click)="openDonateScreen()"
+></app-donate-button>

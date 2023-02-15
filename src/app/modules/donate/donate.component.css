@@ -1,0 +1,25 @@
+.pixCopiaeColaValue {
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.qrcode {
+  margin: 5px;
+  padding: 0px;
+}
+
+.cnpj {
+  cursor: pointer;
+}
+
+.passo-a-passo-doar-fiscal {
+  margin: 10px;
+}
+
+.passo-a-passo-doar-fiscal li{
+  list-style-type: decimal;
+}
+
+h2 {
+  color: #733DCB;
+}

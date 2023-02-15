@@ -1,0 +1,32 @@
+.card {
+  border: none;
+}
+
+.card-body {
+  border: 2px solid #FF5D55;
+}
+
+button {
+  width: 150px;
+  height: 28px;
+
+  background: #FF5D55;
+  color: white;
+  font-size: 16px;
+
+  border-width: 0;
+  border-radius: 100px;
+}
+
+/* .card-img-container {
+  height: 30vh;
+  width: 100%;
+} */
+
+.card-img-top {
+  border-top-right-radius: 1000px;
+  border-top-left-radius: 1000px;
+  object-fit: cover;
+  height: 35vh;
+  object-position: center top;
+}

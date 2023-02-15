@@ -1,0 +1,47 @@
+.page {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+::ng-deep app-donate {
+  padding-right: 10px !important;
+}
+
+app-donate-button {
+  position: fixed;
+  right: 3vw;
+  bottom: 10vh;
+}
+
+app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+app-footer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+::ng-deep .modal-content {
+  margin-bottom: 150px;
+}
+
+::ng-deep .donate-modal {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .page {
+    padding-top: 70px;
+  }
+}
